@@ -1,0 +1,43 @@
+body{
+    background-color: #ec0101;
+    padding-top: 25px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+.inner{
+    padding: 15%;
+    background-color: black;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    height: fit-content;
+    color: wheat;
+    letter-spacing: 3px;
+    padding : 10%;
+    font-family: "Helvetica Neue";
+    box-shadow: 10px 10px  10px  black;
+    border: 1px solid wheat;
+}
+.extra, .extra1{
+    padding-left: 10%;
+}
+span{
+    color: green;
+    padding: 5px;
+    letter-spacing: 1px;
+    font-family: "Helvetica Neue";
+}
+label{
+    color: orange;
+    padding : 5px;
+    letter-spacing: 1px;
+    font-family: "Helvetica Neue";
+}
+@media (max-width: 420px){
+    .inner{
+        padding : 10%;
+    }
+    span,label{
+        letter-spacing: 0px;
+    }
+}
